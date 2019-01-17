@@ -1,0 +1,32 @@
+{
+  "name": "loacker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gruntfile.js",
+  "scripts": {
+    "dev": "grunt"
+  },
+  "author": "okta",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "fibers": "^2.0.2",
+    "font-awesome": "^4.7.0",
+    "grunt": "^1.0.1",
+    "grunt-banner": "^0.6.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^3.0.1",
+    "imagesloaded": "^4.1.4",
+    "jshint-stylish": "^2.2.1",
+    "load-grunt-tasks": "^4.0.0",
+    "node-sass": "^4.9.2"
+  },
+  "dependencies": {}
+}

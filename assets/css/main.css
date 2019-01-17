@@ -1,0 +1,13 @@
+/* 
+ ============###============
+ author : oktaviardi pratama 
+ project : elevania 
+ website:oktaviardi.com 
+ contact : me@oktaviardi.com 
+ phone : 081210161816 
+ updated : 2019-01-18 
+ ============###============
+*/
+
+
+@-webkit-keyframes fade{from{opacity:0}to{opacity:1}}@keyframes fade{from{opacity:0}to{opacity:1}}body{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;overflow:hidden}.font-weight-bold{font-weight:700}.button-primary{background-color:#f98c00;color:#fff;border:none;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;border-radius:3px}.button-primary:focus,.button-primary:hover{background-color:#e07e00}.text-uppercase{text-transform:uppercase!important}.text-right{text-align:right!important}.text-right{text-align:right!important}.d-block{display:block!important}button{cursor:pointer;padding:5px 20px;height:40px;font-size:16px;line-height:30px}button:active,button:focus,button:hover{outline:0}button.button-lg{font-size:21px;padding:15px 10px;height:60px;line-height:30px}.wrap-page{position:relative;height:100vh;width:100%;display:table;text-align:center;vertical-align:middle;line-height:100vh}.button-center-page{display:table-cell;vertical-align:middle}.modal-wrap{position:fixed;top:0;left:0;right:0;bottom:0;padding-top:100px;background-color:#0008;overflow-y:scroll}.modal{width:400px;background-color:#fff;margin:0 auto 100px;padding:15px}.modal.preview-item{padding-left:270px;position:relative;min-height:450px}.modal.preview-item .img-item{background-color:#000;position:absolute;left:0;top:0;bottom:0;min-height:450px;width:250px;background-position:center;background-size:100% auto;background-repeat:no-repeat}.modal .name-title{margin-bottom:10px}.modal .merchant{color:#0007}.modal .info{margin-top:5px;display:table}.modal .info>*{display:table-cell;vertical-align:middle;font-size:14px}.modal .info .ratings{color:#faa232}.modal .info .status{color:#2188cf}.modal .info div+div{padding-left:15px}.modal .action-buy{padding:30px 0;display:table;width:100%}.modal .action-buy>*{display:table-cell;vertical-align:middle}.modal .action-buy s,.modal .action-buy strike{color:#0008}.modal .action-buy button{width:100%;margin:20px 0}.modal .action-buy .total-price{color:#f98c00;font-size:28px;line-height:32px}.close-modal{font-size:18px;color:#888;cursor:pointer}.collapse{display:table;padding:5px 0;border-bottom:solid 1px #ccc;text-decoration:none;width:100%}.collapse span{display:table-cell;vertical-align:middle}.collapse span.fa{width:24px;font-size:24px;line-height:24px}.collapse-body{display:none}

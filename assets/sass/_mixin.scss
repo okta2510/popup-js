@@ -1,0 +1,110 @@
+
+/*<mixin>*/
+
+@mixin gradient-top($a, $b) {
+  background: -moz-linear-gradient(top, $a 40%, $b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, $a 40%, $b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, $a 40%, $b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$a', endColorstr='$b', GradientType=0);
+  /* IE6-9 */
+}
+
+@mixin gradient-diagonal($a, $b) {
+  background: $a;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, $a 0%, $b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, $a 0%, $b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, $a 0%, $b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$a', endColorstr='$b', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+@mixin fix-bg($a, $b, $c) {
+  background-repeat: $a;
+  background-position: $b;
+  background-attachment: $c;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// no-repeat,center,absolute
+@mixin font($a, $b,$type) {
+  font-size: $a+$type;
+  line-height: $b+$type;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow: $shadow;
+  box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+}
+
+@mixin text-shadow($shadow) {
+  text-shadow: $shadow;
+}
+
+@mixin transition($set) {
+  -webkit-transition: $set;
+  -moz-transition: $set;
+  -ms-transition: $set;
+  -o-transition: $set;
+  transition: $set;
+}
+
+@mixin filter($a) {
+  -webkit-filter: $a;
+  /* Safari 6.0 - 9.0 */
+  filter: $a;
+}
+
+//all 0.5s ease-in
+@mixin transform($set) {
+  -moz-transform: $set;
+  -webkit-transform: $set;
+  -o-transform: $set;
+  -ms-transform: $set;
+  transform: $set;
+}
+
+@mixin animation($a, $b) {
+  -webkit-animation-name: $a;
+  -webkit-animation-duration: $b;
+  animation-name: $a;
+  animation-duration: $b;
+}
+
+// fade,1.5s
+@-webkit-keyframes fade {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+/*<mixin>*/
